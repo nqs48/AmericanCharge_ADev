@@ -90,7 +90,6 @@ Temporary Items
 
 ### VisualStudioCode ###
 .vscode/*
-!.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
@@ -106,3 +105,11 @@ Temporary Items
 # Ignore all local history of files
 .history
 .ionide
+
+### Netlify ###
+# Estado local de la CLI de Netlify
+.netlify/
+
+### Environment ###
+.env
+.env.*
